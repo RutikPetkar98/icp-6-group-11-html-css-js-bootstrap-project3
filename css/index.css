@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    
+}
+
+.navbar{
+    background-color: aqua;
+    position: fixed;
+    height:75px;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.nav-link{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+.search{
+    border:0.5px solid aqua;
+    border-radius: 5px;
+    color: red;
+}
+.btn{
+    color: red;
+    border: 0.5px solid aqua;
+    
+}
+
+
+/*top banner*/
+
+.top-banner{
+   
+    width:100%;
+    background-image: url("../pages/food-bg-hd.jpg  "  );
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: cover;
+    padding:12.875rem 0 9.375rem;
+    height: 100vh;
+    
+}
+
+:hover.btn{
+    
+        outline-style: solid;
+        outline-color: #ffc107;
+        background-color: none;
+  
+}
