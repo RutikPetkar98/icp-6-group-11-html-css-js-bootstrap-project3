@@ -20,7 +20,7 @@ body{
     --secondary-font:'Quicksand',sans-serif;
 }
 .airpods-cases-heading{
-    border-top: 1px solid black;
+    border-top: 1px solid gray;
     text-align: center;
     color:#A82C48; font-size: 40px; margin-top: 40px;
     padding: 40px;
