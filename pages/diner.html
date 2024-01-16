@@ -4,10 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        /* .body{
+            background-image: url(./food-bg-hd.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            position: sticky;
+
+        } */
+        .card-img-top{
+            height: 170px;
+        }
+        .back-image{
+   
+              width:100%;
+              background-image: url("../pages/food-bg.jpg  "  );
+              background-repeat:no-repeat ;
+              background-position: center;
+              background-size: cover;
+
+              position: sticky;
+              height: 100vh;
+          }
+    
+    </style>
     <link rel="stylesheet" href="../css/diner.css">
     <script src="../javascript/diner.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
-    <h1>Dinner 🍲</h1>
+    <h1 class="text-center m-2 bg-warning">Maharashtrian Thali</h1>
+    <div class="back-image" style="background-image: url('./food-bg.jpg');">
+
+    <div class="container d-flex " >
+    <div class="card m-3" style="width: 18rem;" data-bs-spy="scroll">
+        <img src="./maharashtrian thali.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Maharashtrian Thali</h5>
+          <p class="card-text">Maharashtrian Thali consists of traditionally prepared dishes from the state of Maharashtra. A typical Vegetarian Menu features koshimbir, Aamti or varan, Roti made with different flours, Vegetables, Lentils, Pickles and other condiments, Drinks and sweets..</p>
+          <a href="#" class="btn btn-primary">Order Now!</a>
+        </div>
+      </div>
+
+      <div class="card m-3" style="width: 18rem;">
+        <img src="./puran-poli.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Puran Poli</h5>
+          <p class="card-text">Maharashtrian Thali consists of traditionally prepared dishes from the state of Maharashtra. A typical Vegetarian Menu features koshimbir, Aamti or varan, Roti made with different flours, Vegetables, Lentils, Pickles and other condiments, Drinks and sweets.. </p>
+          <a href="#" class="btn btn-primary">Order Now!</a>
+        </div>
+      </div>
+
+      <div class="card m-3" style="width: 18rem;">
+        <img src="./thalipeeth.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Thalipeeth</h5>
+          <p class="card-text">Thalipeeth is a savoury multi-grain flatbread popular in Western India, particularly in the state of Maharashtra. The flour for thalipeeth, called bhajanee, is prepared from roasted grains, legumes and spices. Healthy Food!</p>
+          <a href="#" class="btn btn-primary">Order Now!</a>
+        </div>
+      </div>
+
+      <div class="card m-3" style="width: 18rem;">
+        <img src="./kothimbir vadi.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Koyhimbir Vadi</h5>
+          <p class="card-text">Kothimbir vadi is a delicious savory crisp snack from the Maharashtrian cuisine made with gram flour (besan), coriander leaves, peanut, sesame seeds and spices. These savory, herby and flavorful bites can be pan-fried or deep-fried. They are a popular tea-time fritter snack loaded with coriander leaves.</p>
+          <a href="#" class="btn btn-primary">Order Now!</a>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
