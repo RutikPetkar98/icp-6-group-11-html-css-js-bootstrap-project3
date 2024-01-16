@@ -1,0 +1,95 @@
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:active,
+:hover,
+:focus {
+   outline:0 !important;
+   outline-offset: 0;
+}
+a,
+a:hover {
+    text-decoration: none;
+}
+a:hover{
+    color: var(--primary-color);
+}
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --primary-color:#A82C48;
+    --secondary-color:#43121d;
+    --third-color:#f98169;
+    --white-color:#fff;
+    --text-color:#555;
+    --text-gray:#999;
+    --black-color:#000;
+    --primary-font: 'Roboto',sans-serif;
+    --secondary-font:'Quicksand',sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family:var(--primary-font);
+    font-size: 100%;
+    font-weight: 400;
+}
+.main-btn{
+    display: inline-block;
+    padding: 0.625rem 1.875rem;
+    line-height:1.5625rem;
+    background-color: var(--primary-color);
+    border: 0.1875rem solid var(--primary-color);
+    color: var(--white-color);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%);
+    
+}
+#explore-food{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+.explore-food .card{
+    border:none ;
+    background-color: transparent;
+    border-radius: 0.9375rem;
+}
+.explore-food .card img{
+    border-radius:0.9375rem ;
+    object-fit: cover;
+}
+.explore-food .card span{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:var(--primary-color);
+    padding-bottom:1rem;
+    border-bottom: 0.0625rem solid #eee;
+
+}
+.explore-food .card span del{
+    color:var(--text-color);
+    margin-left:0.5rem;
+
+}
