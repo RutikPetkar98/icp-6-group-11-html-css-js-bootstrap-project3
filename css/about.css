@@ -39,7 +39,7 @@ h1:after
     font-weight: bold;
     margin-top: 15px;
 }
-,.img-box
+.img-box
 {
     content: '';
     opacity: 0;
