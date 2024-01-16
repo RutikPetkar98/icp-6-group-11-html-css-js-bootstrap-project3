@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />     
     <link rel="stylesheet" href="../css/explore css/style.css">
     <link rel="stylesheet" href="../css/explore css/responsive.css">
+    <link rel="stylesheet" href="../css/explore css/ejs.css">
 
     <script src="../javascript/breakfast.js"></script>
 </head>
-<body>
+<body class="body" id="DarkMode">
     <!--Navbar-->
   <nav class="navbar navbar-expand-lg bg-warning fixed-top " >
     <div class="container">
@@ -54,7 +55,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="text-content text-center">
-                        <h2 style="color:#A82C48;">Explore Our Foods🍛</h2>
+                        <h2 style="color:#A82C48; font-size: 40px; margin-top: 20px;">Explore Our Foods🍛</h2>
                         <p>Food is one of the basic necessities of life. Food contains nutrients—substances essential for the growth, repair, and maintenance of body tissues and for the regulation of vital processes.!</p>
 
                     </div>
@@ -97,6 +98,82 @@
         </div>
     </div>
   </div>
+</section>
+
+    
+    
+
+    <!--Airpod Cases-->
+
+    <h1 class="airpods-cases-heading ">Restaurant View</h1>
+    <div class="airpods-main-container">
+
+        <div class="airpods-cards">
+            <img src="../images/rimg-1.jpg" alt="" id="airpod-main-img1" class="airpod-main-img">
+
+            <div class="airpod-images-container">
+              <img src="../images/rimg-1.jpg" alt="" class="airpods-img" onclick="changeAirpod11('../images/rimg-1.jpg')">
+              <img src="../images/rimg-2.jpg" alt="" class="airpods-img" onclick="changeAirpod11('../images/rimg-2.jpg')">
+              <img src="../images/rimg-3.jpg" alt="" class="airpods-img" onclick="changeAirpod11('../images/rimg-3.jpg')">
+              <img src="../images/rimg-4.jpg" alt="" class="airpods-img" onclick="changeAirpod11('../images/rimg-4.jpg')">
+        
+            </div>
+
+            <p class="airpod-name"> Our Facilities </p> 
+        </div>
+        <div class="airpods-cards">
+          <img src="../images/simg1.jpg" alt="" id="airpod-main-img2" class="airpod-main-img">
+
+          <div class="airpod-images-container">
+            <img src="../images/simg1.jpg" alt="" class="airpods-img" onclick="changeAirpod12('../images/simg1.jpg')">
+            <img src="../images/simg2.jpg" alt="" class="airpods-img" onclick="changeAirpod12('../images/simg2.jpg')">
+            <img src="../images/simg3.jpg" alt="" class="airpods-img" onclick="changeAirpod12('../images/simg3.jpg')">
+            <img src="../images/simg4.jpg" alt="" class="airpods-img" onclick="changeAirpod12('../images/simg4.jpg')">
+      
+          </div>
+
+          <p class="airpod-name">Restaurant Services</p>  
+      </div>
+      <div class="airpods-cards">
+        <img src="../images/gimg1.jpeg" alt="" id="airpod-main-img3" class="airpod-main-img">
+
+        <div class="airpod-images-container">
+          <img src="../images/gimg1.jpeg" alt="" class="airpods-img" onclick="changeAirpod13('../images/gimg1.jpeg')">
+          <img src="../images/gimg2.jpg" alt="" class="airpods-img" onclick="changeAirpod13('../images/gimg2.jpg')">
+          <img src="../images/gimg3.jpeg" alt="" class="airpods-img" onclick="changeAirpod13('../images/gimg3.jpeg')">
+          <img src="../images/gimg4.jpg" alt="" class="airpods-img" onclick="changeAirpod13('../images/gimg4.jpg')">
+    
+        </div>
+
+        <p class="airpod-name">Garden View </p> 
+    </div>
+   
+
+       
+       
+    </div>
+
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <!--about-->
   <section id="about">
     <div class="about-section wrapper">
@@ -117,7 +194,7 @@
       </div>
     </div>
   </section>
-  </section>
-
+ 
+  <script src="../javascript/breakfast.js"></script>
 </body>
 </html>
