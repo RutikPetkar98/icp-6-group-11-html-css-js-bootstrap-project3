@@ -1,13 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/lunch.css">
     <script src="../javascript/lunch.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
-<body>
-    <h1>Lunch 🍜</h1>
+
+    <h1 class="text-center m-2 bg-warning">Punjabi Thali</h1>
+    <div class="back-image" style="background-image: url('./food-bg.jpg');">
+      
+    <div class="container d-flex " >
+    <div class="card m-3" style="width: 18rem;">
+        <img src="./punjabi thali.jpg" class="card-img-top" alt="...">.
+        <div class="card-body ">
+          <h5 class="card-title">Punjabi Thali</h5>
+          <p class="card-text">Punjabi cuisine is a culinary style originating in the Punjab, a region in the northern part of South Asia, which is now divided in an Indian part to the east and a Pakistani part to the west. This cuisine has a rich tradition of many distinct and local ways of cooking.</p>
+          <p class="product_price">Price : ₹ 450 per plate</p>
+        <div class="quantity_container">
+        <img src="minus.png" class="btn_quantity" onclick="decreaseQuantity()">
+        <span class="product_quantity" id="product_text">1</span>
+        <img src="plus.png" class="btn_quantity" alt="" onclick="increaseQuantity()">
+        </div> <br>
+          <a href="#" class="btn btn-primary" id="order-btn">Order Now!</a>
+        </div>
+    </div>
+
+    <div class="card m-3" style="width: 18rem;">
+      <img src="./butter-chicken.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Butter Chicken</h5>
+        <p class="card-text">Butter chicken, traditionally known as murgh makhani is an Indian dish originating in Delhi.[1][2] It is a type of curry made from chicken with a spiced tomato and butter (makhan) sauce. Its sauce is known for its rich texture. It is similar to chicken tikka masala, which uses a tomato paste.</p> 
+        <p class="product_price">Price : ₹ 499 per plate</p>
+      <div class="quantity_container">
+      <img src="minus.png" class="btn_quantity" onclick="decreaseQuantity()">
+      <span class="product_quantity" id="product_text">1</span>
+      <img src="plus.png" class="btn_quantity" alt="" onclick="increaseQuantity()">
+      </div> <br>
+        <a href="#" class="btn btn-primary" id="order-btn">Order Now!</a>
+      </div>
+    </div>
+
+    <div class="card m-3" style="width: 18rem;">
+        <img src="./paratha.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Paratha</h5>
+          <p class="card-text">The paratha is an important part of a traditional breakfast from the Indian subcontinent. Traditionally, it is made using ghee but oil is also used. Some people may even bake it in the oven for health reasons.</p> <br><br> <br>
+          <p class="product_price">Price : ₹ 199 per plate</p>
+        <div class="quantity_container">
+        <img src="minus.png" class="btn_quantity" onclick="decreaseQuantity()">
+        <span class="product_quantity" id="product_text">1</span>
+        <img src="plus.png" class="btn_quantity" alt="" onclick="increaseQuantity()">
+        </div> <br>
+          <a href="#" class="btn btn-primary" id="order-btn">Order Now!</a>
+        </div>
+      </div>
+
+      <div class="card m-3" style="width: 18rem;">
+        <img src="./paneer tikka.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Paneer Tikka Masala</h5>
+          <p class="card-text">Paneer tikka masala is an Indian dish of paneer tikka cheese served in a spiced gravy. It is a vegetarian alternative to chicken tikka masala.Paneer tikka masala is an Indian dish of paneer tikka cheese served in a spiced gravy. It is a vegetarian alternative to chicken tikka masala.</p>
+          <p class="product_price">Price : ₹ 200 per plate</p>
+          <div class="quantity_container">
+          <img src="minus.png" class="btn_quantity" onclick="decreaseQuantity()">
+          <span class="product_quantity" id="product_text">1</span>
+          <img src="plus.png" class="btn_quantity" alt="" onclick="increaseQuantity()">
+          </div> <br>
+            <a href="#" class="btn btn-primary" id="order-btn">Order Now!</a>
+          </div>
+      </div>
+    </div>
+    
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
 </body>
 </html>

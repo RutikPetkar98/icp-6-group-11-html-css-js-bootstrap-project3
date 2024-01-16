@@ -1,0 +1,36 @@
+.card-img-top{
+    height: 170px;
+}
+.back-image{
+      width:100%;
+      background-image: url("../pages/food-bg.jpg"  );
+      background-repeat:no-repeat ;
+      background-position: center;
+      background-size: cover;
+      height: 115vh;
+  }
+  .quantity_container{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.btn_quantity{
+height: 35px;
+cursor: pointer;
+}
+
+.product_quantity{
+    font-size: 20px;
+    }
+    .btn_quantity{
+    height: 25px;
+    cursor: pointer;
+    }
+    .product_price{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #order-btn{
+      display: block;
+      margin: 0 auto;
+    }
