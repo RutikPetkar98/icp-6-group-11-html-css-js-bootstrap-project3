@@ -1,3 +1,36 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+  
+}
+
+.navbar{
+  background-color: aqua;
+  position: fixed;
+  height:75px;
+}
+.navbar-brand{
+  font-size: 30px;
+}
+.nav-link{
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
+  text-transform: uppercase;
+}
+.search{
+  border:0.5px solid aqua;
+  border-radius: 5px;
+  color: red;
+}
+.btn{
+  color: red;
+  border: 0.5px solid aqua;
+  
+}
+
+
 .card-img-top{
     height: 170px;
 }
@@ -34,3 +67,14 @@ cursor: pointer;
       display: block;
       margin: 0 auto;
     }
+
+    .linkFooter a{
+      text-decoration: none;
+      color: black;
+      }
+      .imageSocial{
+      height: 20px;
+      }
+      #footer-container{
+      padding: 20px;
+      }
