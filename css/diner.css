@@ -66,6 +66,8 @@ cursor: pointer;
     #order-btn{
       display: block;
       margin: 0 auto;
+      text-align: center;
+      font-size: 30px;
     }
 
     .linkFooter a{

@@ -4,6 +4,10 @@ body{
     box-sizing:border-box;
     
 }
+.bbtn:hover{
+    color: var(--primary-color);
+    background-color: #fff;
+}
 
 .navbar{
     background-color: aqua;
