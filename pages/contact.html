@@ -1,13 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/contact.css">
-    <script src="../javascript/contact.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Contact Page</title>
 </head>
+<style>
+   body {
+  background-color: #f8f9fa;
+}
+
+.container {
+  
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    
+}
+
+.navbar{
+    background-color: aqua;
+    position: fixed;
+    height:75px;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.nav-link{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+.search{
+    
+    border-radius: 5px;
+    
+}
+
+/*top banner*/
+
+.top-banner{
+   
+   width:100%;
+   background-image: url("../pages/food-bg-hd.jpg  "  );
+   background-repeat:no-repeat ;
+   background-position: center;
+   background-size: cover;
+   padding:6.875rem 0 9.375rem;
+   height: 500vh;
+   
+}
+
+
+ 
+</style>
+
+
 <body>
-    <h1>Contact</h1>
+
+  
+
+      <!--Navbar-->
+      <nav class="navbar navbar-expand-lg bg-warning fixed-top " >
+        <div class="container">
+          <a class="navbar-brand" href="#">FOODIIIES</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarScroll">
+    
+            <ul class="navbar-nav m-auto my-2 my-lg-0" >
+              <li class="nav-item">
+                <a class="nav-link active"href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Contact</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link " href="#" >Services
+                </a>
+                
+              <li class="nav-item">
+                <a class="nav-link" >Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" >Login</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="search  me-2 p-2 " type="search" placeholder="Search" aria-label="Search">
+              <button class="btn " type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+        <!-------banner-->
+
+  <div class=" container-fluid px-0 top-banner">
+
+
+        
+
+
+  
+
+      
+    
+
+  <div class="container mt-5">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      // You can add your logic to handle form submission here
+      alert('Form submitted successfully!');
+    });
+    </script>
+    
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+
 </body>
 </html>
