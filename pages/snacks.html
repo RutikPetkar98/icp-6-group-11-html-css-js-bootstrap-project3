@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/lunch.css">
+    <link rel="stylesheet" href="../css/explore css/style.css">
+    <script src="../javascript/lunch.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg hash p fixed-top " >
+    <div class="container">
+      <a class="navbar-brand text-white " href="#" >FOODIIIES</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarScroll">
+
+        <ul class="navbar-nav m-auto my-2 my-lg-0" >  
+          <li class="nav-item">
+            <a class="nav-link text-white" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="../pages/contact.html">Contact</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-white " href="../pages/about.html" >About
+            </a>
+            
+          <li class="nav-item">
+            <a class="nav-link text-white" href="../pages/faq.html" >FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="../pages/login.html">Login</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="search  me-2 p-2 " type="search" placeholder="Search" aria-label="Search">
+          <button class="btn text-white " type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+    <h1 class="text-center m-3 bg-white">Snacks Food</h1>
+    <h1 class="text-center bg-white m-2">Snacks Food</h1>
+    <div class="back-image" style="background-image: url('./food-bg.jpg');">
+      
+    <div class="container d-flex " >
+    <div class="card m-3" style="width: 18rem;">
+        <img src="../images/img-4.jpg" class="card-img-top" alt="...">.
+        <div class="card-body ">
+          <h5 class="card-title">Parippu Vada</h5>
+          <p class="card-text">Parippu Vada also known as Parippu Vada or Masala Vada are savory, spiced, crunchy fritters that are a popular street food in South India. Gluten-free and vegan. There are many ways to make Chana Dal Vada. </p>
+          <span >₹100<del >₹150</del></span>
+        <div class="quantity_container">
+        <img src="minus.png" class="btn_quantity" onclick="decreaseQuantity1()">
+        <span class="product_quantity" id="card-1">1</span>
+        <img src="plus.png" class="btn_quantity" alt="" onclick="increaseQuantity1()">
+        </div> <br>
+          <a href="#" class="mt-4 main-btn text-center" id="order-btn">Order Now!</a>
+        </div>
+    </div>
+
+    <div class="card m-3" style="width: 18rem;">
+      <img src="../images/img-11.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Onion rings</h5>
+        <p class="card-text">Best onion rings recipe – these onion rings are so crispy, juicy and addictive.  They will stay crispy not only after frying but for a long time. This version is so easy to make, and it is a vegan and eggless recipe. </p> 
+        <span class="text-center mt-5">₹100<del >₹150</del></span>
+      <div class="quantity_container">
+      <img src="minus.png" class="btn_quantity" onclick="decreaseQuantity2()">
+      <span class="product_quantity" id="card-2">1</span>
+      <img src="plus.png" class="btn_quantity" alt="" onclick="increaseQuantity2()">
+      </div> <br>
+        <a href="#" class="mt-4 main-btn text-center" id="order-btn">Order Now!</a>
+      </div>
+    </div>
+
+    <div class="card m-3" style="width: 18rem;">
+        <img src="../images/img-12.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Spain</h5>
+          <p class="card-text">Snacks are defined as smaller, less structured meal that are not eaten during regular meal times, such as breakfast (morning), lunch (midday), and dinner (evening).</p> <br><br> <br>
+          <span >₹100<del >₹150</del></span>
+        <div class="quantity_container">
+        <img src="minus.png" class="btn_quantity" onclick="decreaseQuantity3()">
+        <span class="product_quantity" id="card-3">1</span>
+        <img src="plus.png" class="btn_quantity" alt="" onclick="increaseQuantity3()">
+        </div> <br>
+          <a href="#" class="mt-4 main-btn text-center" id="order-btn">Order Now!</a>
+        </div>
+      </div>
+
+      <div class="card m-3" style="width: 18rem;">
+        <img src="../images/img-7.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pakora</h5>
+          <p class="card-text">A snack is a small portion of food generally eaten between meals. It is a vegetarian alternative to chicken tikka masala.</p>
+          <span >₹100<del >₹150</del></span>
+          <div class="quantity_container">
+          <img src="minus.png" class="btn_quantity" onclick="decreaseQuantity4()">
+          <span class="product_quantity" id="card-4">1</span>
+          <img src="plus.png" class="btn_quantity" alt="" onclick="increaseQuantity4()">
+          </div> <br>
+            <a href="#" class="mt-4 main-btn text-center" id="order-btn">Order Now!</a>
+          </div>
+      </div>
+    </div>
+    
+    </div>
+
+    <footer class="footer-container mt-4">
+      <div class="row hash" id="footer-container">
+          <div class="col-4 col-lg-4 col-sm-12">
+              <p class="footerHead"> <b> FOODIIIES </b> </p>
+              <p class="p"> Restaurants know the importance of a strong first impression. It's why they invest in exterior design, decorate their entranceways and train hosts to welcome guests with a warm smile. 
+              </p>
+          </div>
+  
+          <div class="col-2 col-lg-2 col-sm-12">
+              <p class="footerHead"> <b> Quick Links </b> </p>
+                  <ul class="linkFooter">
+                      <li><a href="../index.html" target="_blank" class="menu">HOME</a></li>
+                      <li><a href="../Pages/contact.html" target="_blank" class="menu">CONTACT </a></li>
+  
+                      <li><a href="../Pages/services.html" target="_blank" class="menu">SERVICES</a></li>
+                      <li><a href="../Pages/about.html" target="_blank" class="menu">ABOUT</a></li>
+                      <li><a href="../Pages/login.html" target="_blank" class="menu">LOGIN</a></li>
+                      <li><a href="../Pages/faq.html" target="_blank" class="menu">FAQ</a></li>
+           
+                  </ul>
+  
+          </div>
+  
+          <div class="col-2  col-lg-2 col-sm-12">
+              <p class="footerHead"> <b> Social Media </b> </p>
+              <ul class="linkFooter">
+              <li> <a href=""> <img  class="imageSocial" src="./youtube.png" alt=""> YouTube </a></li>
+              <li> <a href=""> <img  class="imageSocial" src="./instagram.png" alt=""> Instagram </a> </li>
+              <li> <a href=""> <img  class="imageSocial" src="./twitter.png" alt=""> Twitter </a> </li>
+              </ul>         
+          </div>
+  
+          <div class="col-4 col-lg-4 col-sm-12">
+              <p class="footerHead"> <b> For Customer Support </b> </p>
+              <ul class="linkFooter">
+                  <li> <a href="tel: +91 5454545454"> Contact No: +91 9876543211 </a> </li> 
+                  <li> <a href="mailto: kibble@gmail.com"> Mail To: FOODIIIESApp@gmail.com </a> </li>
+              </ul>
+          </div>
+         <div class="copyright text-center col-12 col-lg-12 col-sm-12" >
+              Copyright &#169; Quiz@gmail.com  | All right are reserved.
+      </div>
+      </div>
+       
+  </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
