@@ -69,11 +69,17 @@ cursor: pointer;
 
     .linkFooter a{
       text-decoration: none;
-      color: black;
+      color: #fff;
       }
       .imageSocial{
       height: 20px;
       }
       #footer-container{
       padding: 20px;
+      }
+      .hash{
+        background-color: #A82C48;
+      }
+      .p{
+        color: #fff;
       }
