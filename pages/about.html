@@ -3,155 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=, initial-scale=1.0">
-  <title>Document</title>
+  <title>About</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
     rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
     crossorigin="anonymous">
-  <link rel="stylesheet" href="/css/index.css"> 
-  <style>
-    *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'Roboto',sans-serif;
-
-}
-body{
-    background-color: #f2f2f2;
-
-}
-.heading{
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    margin: 20px auto;
-    margin-top: 100px;
-}
-.heading h1{
-    font-size: 50px;
-    color: #000;
-    margin-bottom: 25px;
-    position: relative;
-}
-.heading h1::after{
-    content:"";
-    position: absolute;
-    width: 100%;
-    height: 4px;
-    display: block;
-    margin: 0 auto;
-    background-color: #4caf50;
-
-}
-.heading p{
-    font-size: 18px;
-    color: #666;
-    margin-bottom: 35px;
-
-}
-.container{
-    width: 90%;
-    margin: 0 auto;
-    padding: 10px 20px;
-}
-.about{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.about-image{
-    flex: 1;
-    margin-right: 40px;
-    overflow: hidden;
-}
-.about-image img{
-    max-width: 100%;
-    height: auto;
-    display: block;
-    transition: 0.5s ease;
-}
-.about-image:hover img{
-    transform: scale(1.2);
-
-}
-.about-content{
-    flex: 1;
-}
-.about-content h2{
-    font-size: 23px;
-    margin-bottom: 15px;
-    color: #333;
-
-}
-.about-content p{
-    font-size: 18px;
-    line-height: 1.5;
-    color: #666;
-}
-.about-content .read-more{
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #4caf50;
-    color: #fff;
-    font-size: 19px;
-    text-decoration: none;
-    border-radius: 25px;
-    margin-top: 15px;
-    transition: 0.3s ease;
-
-}
-.about-content .read-more{
-    background-color: #3e8e41;
-
-
-}
-/*footer*/
-
-.linkFooter a{
-                   text-decoration: none;
-                   color: black;
-        }
-        
-
-@media screen and (max-width:768px){
-    .heading{
-        padding: 0px 20px;
-
-    }
-    .heading h1{
-        font-size: 36px;
-    }
-    .heading p{
-        font-size: 17px;
-        margin-bottom: 0px;
-    }
-    .container{
-        padding: 0px;
-
-    }
-    .about{
-        padding: 20px;
-        flex-direction: column;
-    }
-    .about-image{
-        margin-right: 0px;
-        margin-bottom: 20px;
-    }
-    .about-content{
-        padding: 0px;
-        font-size: 16px;
-    }
-    .about-content.read-more{
-        font-size: 16px;
-    }
-}
-  </style>
+  <link rel="stylesheet" href="../css/about.css"> 
 </head>
 <body>
+  
+  <!--navbar-->
   <nav class="navbar navbar-expand-lg bg-warning fixed-top " >
     <div class="container">
       <a class="navbar-brand" href="#">FOODIIIES</a>
@@ -163,20 +23,20 @@ body{
 
         <ul class="navbar-nav m-auto my-2 my-lg-0" >
           <li class="nav-item">
-            <a class="nav-link active"href="#">Home</a>
+            <a class="nav-link active" href="../index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="#">Contact</a>
+            <a class="nav-link " href="../pages/contact.html">Contact</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link " href="#" >Services
+            <a class="nav-link " href="../pages/about.html" >About
             </a>
             
           <li class="nav-item">
-            <a class="nav-link" >Contact</a>
+            <a class="nav-link" href="../pages/faq.html" >FAQ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" >FAQ's</a>
+            <a class="nav-link" href="../pages/login.html">Login</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
@@ -186,7 +46,9 @@ body{
       </div>
     </div>
   </nav>
-</div>
+
+
+
   <div class="heading">
     <h1>About US</h1>
     <p>
@@ -215,7 +77,7 @@ body{
     <div class="row">
       <div class="col-sm-4">
         <div class="card" style="width: 18rem;">
-          <img src="shef5.jpg" class="card-img-top" alt="...">
+          <img src="../images/shef5.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Easy orders</h5>
             <p class="card-text">You can easy to order and get Discount vouchers</p>
@@ -225,7 +87,7 @@ body{
 
       </div>
       <div class="card" style="width: 18rem;">
-        <img src="shef4.jpg" class="card-img-top" alt="...">
+        <img src="../images/shef4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Healty Food</h5>
           <p class="card-text">Healthy and good Food Provides Our staffs, and very hu,ble guys all</p>
@@ -233,7 +95,7 @@ body{
         </div>
       </div>
       <div class="card" style="width: 18rem;">
-  <img src="download.jpeg" class="card-img-top" alt="...">
+  <img src="../images/download.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">warm Embrance in Dish</h5>
     <p class="card-text">he foods we eat contain nutrients. </p>
@@ -246,14 +108,11 @@ body{
 
 
   <!--footer-->
-  <footer>
-    <div class="row bg-warning">
+  <footer class="footer-container">
+    <div class="row bg-warning" id="footer-container">
         <div class="col-4 col-lg-4 col-sm-12">
-            <p class="footerHead"> <b> Quiz App </b> </p>
-            <p class="aboutP"> This cooperative-learning technique has students 
-            review information with other students by asking and answering questions. Working with peers
-            in a nonthreatening manner builds confidence, encourages greater participation, and results in 
-            more thoughtful discussions.
+            <p class="footerHead"> <b> FOODIIIES </b> </p>
+            <p class="aboutP"> Restaurants know the importance of a strong first impression. It's why they invest in exterior design, decorate their entranceways and train hosts to welcome guests with a warm smile. 
             </p>
         </div>
 
@@ -275,9 +134,9 @@ body{
         <div class="col-2  col-lg-2 col-sm-12">
             <p class="footerHead"> <b> Social Media </b> </p>
             <ul class="linkFooter">
-            <li> <a href=""> <img  class="imageSocial" src="../Images/youtube.png" alt=""> YouTube </a></li>
-            <li> <a href=""> <img  class="imageSocial" src="../Images/instagram.png" alt=""> Instagram </a> </li>
-            <li> <a href=""> <img  class="imageSocial" src="../Images/twitter.png" alt=""> Twitter </a> </li>
+            <li> <a href=""> <img  class="imageSocial" src="./youtube.png" alt=""> YouTube </a></li>
+            <li> <a href=""> <img  class="imageSocial" src="./instagram.png" alt=""> Instagram </a> </li>
+            <li> <a href=""> <img  class="imageSocial" src="./twitter.png" alt=""> Twitter </a> </li>
             </ul>         
         </div>
 
@@ -294,6 +153,5 @@ body{
     </div>
      
 </footer>
-  
 </body>
 </html>
